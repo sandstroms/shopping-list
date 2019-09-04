@@ -1,0 +1,36 @@
+{
+  "name": "shopping-list-app",
+  "version": "1.0.0",
+  "description": "Shopping List built with the MERN stack",
+  "main": "server.js",
+  "scripts": {
+    "client-install": "npm install --prefix client",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client"
+  },
+  "author": "Shaun Sandstrom",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "bcryptjs": "^2.4.3",
+    "bootstrap": "^4.3.1",
+    "concurrently": "^4.1.1",
+    "config": "^3.2.1",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.6.5",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-redux": "^7.1.0",
+    "react-scripts": "3.0.1",
+    "react-transition-group": "^4.2.1",
+    "reactstrap": "^8.0.1",
+    "redux": "^4.0.4",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
