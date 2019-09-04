@@ -5,7 +5,7 @@ const jwt = require('jsonwebtoken');
 require('dotenv').config();
 
 // User Model
-const User = require('../../models/User');
+const User = require('../models/User');
 
 // @route POST api/users
 // @desc Register new user

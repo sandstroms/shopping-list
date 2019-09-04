@@ -2,11 +2,11 @@ const express = require('express');
 const router = express.Router();
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
-const auth = require('../../middleware/auth');
+const auth = require('../middleware/auth');
 require('dotenv').config();
 
 // User Model
-const User = require('../../models/User');
+const User = require('../models/User');
 
 // @route POST api/auth
 // @desc Authenticate the user
