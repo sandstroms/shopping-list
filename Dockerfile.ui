@@ -1,5 +1,3 @@
 FROM nginx
 
-RUN npm run build
-
 COPY build /usr/share/nginx/html
