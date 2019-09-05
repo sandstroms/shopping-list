@@ -4,8 +4,8 @@
   "description": "Shopping List built with the MERN stack",
   "main": "server.js",
   "scripts": {
-    "server": "node server.js",
-    "dev-server": "nodemon server.js",
+    "server": "node src/server.js",
+    "dev-server": "nodemon src/server.js",
     "client": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
